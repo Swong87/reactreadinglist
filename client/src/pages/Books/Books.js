@@ -34,6 +34,7 @@ class Books extends Component {
   };
 
   handleInputChange = event => {
+    console.log(this.state.books);
     const { name, value } = event.target;
     this.setState({
       [name]: value
